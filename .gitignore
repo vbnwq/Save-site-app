@@ -1,0 +1,17 @@
+# build intermediates
+build/*.o
+*.obj
+*.pdb
+
+# keep the shipped executable (build/NetSaver.exe) tracked in git
+!build/NetSaver.exe
+
+# source-derived artifacts kept (ui_html.h is generated but committed for convenience)
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
